@@ -120,14 +120,14 @@ function move(){
                   speed -= 20;
                }else if(speed>100){
                   speed -= 5;
-               }else if(speed>50){
+               }else if(speed>70){
                   speed -= 1;
                }
                if(speed>200){ 
                   eggSpeed -= 50;
                }else if(speed>100){
                   eggSpeed -= 20;
-               }else if(speed>50){
+               }else if(speed>70){
                   eggSpeed -= 10;
                }
                console.log("speed : ",speed);
